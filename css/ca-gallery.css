@@ -171,8 +171,8 @@ body {
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
-        /* border: none;
-        background-color: transparent; */
+        border: none;
+        background-color: transparent;
     }
     #mainNav .navbar-brand {
         font-size: 1.75em;
