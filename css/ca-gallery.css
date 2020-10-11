@@ -7,7 +7,13 @@ p {
 }
 a {
     color: #fed136;
+    cursor: pointer;
 }
+
+button {
+    cursor: pointer;
+}
+
 a.active,
 a:active,
 a:focus,
@@ -69,7 +75,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #FED136;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -137,6 +143,7 @@ body {
     color: #fed136;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
+
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
@@ -159,22 +166,26 @@ body {
 @media (min-width: 992px) {
     
     #mainNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
-        border: none;
-        background-color: transparent;
+        /* border: none;
+        background-color: transparent; */
     }
     #mainNav .navbar-brand {
         font-size: 1.75em;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
+        margin-left: 50px;
     }
     #mainNav .navbar-nav .nav-item .nav-link {
         padding: 1.1em 1em !important;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link-last {
+        margin-right: 50px;
     }
     #mainNav.navbar-shrink {
         padding-top: 0;
@@ -185,8 +196,8 @@ body {
         font-size: 1.25em;
         padding: 12px 0;
     }
-   
 }
+
 header.masthead {
     text-align: center;
     color: #FED136;
@@ -597,15 +608,26 @@ header.masthead .intro-text a {
     }
 }
 footer {
-    padding: 25px 0;
+    padding: 10px 0;
     text-align: center;
+    color: snow;
 }
-footer span.copyright {
+
+footer .row {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer .copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    margin-bottom: 0;
+    width: 100%;
 }
 footer ul.quicklinks {
     font-size: 90%;
@@ -771,14 +793,23 @@ fieldset[disabled] .btn-xl:hover {
 
 .check-out-btn {
     font-family: cursive;
+    margin-top: 20px;
 }
 
 .myself {
     object-fit: cover;
 }
 
-/* .portfolio-item img {
-} */
+.proj-img {
+    background-color: #2222228f;
+}
+
+.me-section {
+    margin-bottom: 40px;
+}
+.me-section .me-paragraph {
+    text-align: justify;
+}
 
 /* reset bootstrap*/
 .row {

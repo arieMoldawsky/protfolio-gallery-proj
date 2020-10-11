@@ -55,7 +55,7 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <!-- <div class="container"> -->
       <a class="navbar-brand js-scroll-trigger" href="#page-top">A.M.</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,11 +73,11 @@
             <a class="nav-link js-scroll-trigger" href="#me">Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#" onclick="openCanvas()">Contact</a>
+            <a class="nav-link js-scroll-trigger nav-link-last" href="#" onclick="openCanvas()">Contact</a>
           </li>
         </ul>
       </div>
-    </div>
+    <!-- </div> -->
   </nav>
 
   <!-- Header -->
@@ -149,7 +149,7 @@
 
   <!-- Me -->
   <section class="bg-light" id="me" style="padding: 0px;">
-      <div class="row">
+      <div class="row me-section">
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle myself" src="img/team/5.jpg" alt="">
@@ -174,44 +174,18 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-8 flex-align-center">
-            <p class="large text-muted  about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-                totam corporis ea, alias ut unde.</p>    
+        <div class="col-sm-8 flex-align-center me-paragraph">
+            <p class="large text-muted  about-description">Hey there, welcome to my world! I am Arie, I'm on my way to becoming a proffesional Full Stack and/or Frontend Developer. I am also a licensed lawyer, specialized in commercial and private real-estate. It is realy cool combining those worlds together, I am thankful for it...</p>    
         </div>
       </div>
   </section>
 
 
   <!-- Footer -->
-  <footer>
+  <footer class="bg-dark">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 flex-align-center">
-          <a href="http://coding-academy.org" target="_blank">
-            <img src="./img/ca-logo.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-4 flex-align-center">
-          <ul class="list-inline social-buttons flex-align-center">
-            <li class="list-inline-item">
-              <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-            </li>
-            <li class="list-inline-item flex-align-center">
-              <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 flex-align-center">
+      <div class="row d-flex">
+        <div class="col-md-6 ">
             <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">More Me</a>
@@ -220,6 +194,9 @@
               <a href="#">Even More</a>
             </li>
           </ul>
+        </div>
+        <div class="col-md-6 .copyright">
+          © Copyrights - Arie Moldawsky
         </div>
       </div>
     </div>

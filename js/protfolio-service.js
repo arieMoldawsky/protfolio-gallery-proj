@@ -13,13 +13,13 @@ function getProjects() {
 }
 
 function getProjById(id) {
-    var proj = gProj.find(function(project) {
-      return project.id === id;
-   })
-   return proj;
+    var proj = gProj.find(function (project) {
+        return project.id === id;
+    })
+    return proj;
 }
 
-function createProj(id, name, title, label) {
+function createProj(id, name, title, label, img) {
     return {
         id,
         name,
