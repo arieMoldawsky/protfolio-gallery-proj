@@ -26,7 +26,7 @@ function createProj(id, name, title, label, img) {
         title,
         desc: "lorem ipsum lorem ipsum lorem ipsum",
         url: `projs/${id}`,
-        publishedAt: '2020',
+        publishedAt: 'September-December 2020',
         label
     }
 }
