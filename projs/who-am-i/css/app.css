@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  height: 400px;
+}
+
+header h1 {
+  font-family: fantasy;
+  font-style: italic;
+  text-shadow: -7px 3px 2px rgba(150, 150, 150, 0.9);
+
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label{
+  font-weight: bold;
+}
+.ending-form input,label {
+  height: 40px;
+  width: 300px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.btn-start {
+  background-color: #ffc107;
+}
+.btn-yes {
+  background-color: #28a745;
+}
+
+.btn-no {
+  background-color: #ff0018;
+}
+
+.btn-add-guess {
+  background-color: #fd7e14;
+  width: 250px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.victory {
+  color: yellow;
+  text-shadow: -3px 2px 2px rgba(150, 150, 150, 0.9);
+  background-color: rgb(172, 172, 172);
+  padding: 8px;
+  opacity: 0.9;
+  border-radius: 10px;
+  border: 2px dotted #dadada;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+  transition: 0.1s;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.genie-bottle {
+  position: absolute;
+  max-width: 150px;
+  margin-top: 0;
+  top: 3.9em;
+  right: 10.6em;
+  /* border-radius: 50%; */
+}
+
+.winner {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  bottom: 50px;
+}

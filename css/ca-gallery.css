@@ -84,7 +84,8 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgba(204, 204, 204, 0.95);
+    /* opacity: 0.9; */
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -766,4 +767,12 @@ fieldset[disabled] .btn-xl:hover {
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+
+.check-out-btn {
+    font-family: cursive;
+}
+
+.myself {
+    object-fit: cover;
 }

@@ -1,0 +1,60 @@
+body {
+    background-color: #9df9ef;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    font-style: italic;
+}
+
+table {
+    /* display: block; */
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 0;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #ffa8B6;
+}
+
+.game-time {
+    margin-left: 800px;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+}
+
+td button {
+    margin: 0;
+    border-width: 1px;
+    border-radius: 20%;
+    border-color: lightgray;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #ffa8B6;
+}
+
+.new-game:hover {
+    cursor: pointer;
+}
+
+td button:hover {
+    cursor: pointer;
+}
