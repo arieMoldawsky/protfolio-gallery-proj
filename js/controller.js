@@ -21,13 +21,14 @@ function onRenderModal(id) {
   var project = getProjById(id);
   var strHtml = `<h2>${project.name}</h2>
   <p class="item-intro text-muted">${project.title}</p>
+  <a class="btn btn-warning check-out-btn-modal" href="projs/${project.id}/index.html" target="_blank">Check it Out!</a>
   <img class="img-fluid d-block mx-auto" src="img/portfolio/${project.id}.jpg" alt="">
   <p>${project.desc}</p>
   <ul class="list-inline">
     <li>Date: ${project.publishedAt}</li>
     <li>Category: ${project.label}</li>
   </ul>
-  <button class="btn btn-primary" data-dismiss="modal" type="button">
+  <button class="btn btn-warning" data-dismiss="modal" type="button">
       <i class="fa fa-times"></i>
       Close Project</button>`;
   elModalBody.innerHTML = strHtml;

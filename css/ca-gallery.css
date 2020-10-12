@@ -358,7 +358,7 @@ header.masthead .intro-text a {
 .portfolio-modal .modal-content p.item-intro {
     font-size: 16px;
     font-style: italic;
-    margin: 20px 0 30px;
+    margin: 20px 0 18px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .portfolio-modal .modal-content ul.list-inline {
@@ -796,12 +796,17 @@ fieldset[disabled] .btn-xl:hover {
     margin-top: 20px;
 }
 
+.check-out-btn-modal {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .myself {
     object-fit: cover;
 }
 
 .proj-img {
-    background-color: #2222228f;
+    background-color: #222222c4;
 }
 
 .me-section {
@@ -810,6 +815,11 @@ fieldset[disabled] .btn-xl:hover {
 .me-section .me-paragraph {
     text-align: justify;
 }
+
+.portfolio-section {
+    background-image: url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+}
+
 
 /* reset bootstrap*/
 .row {
